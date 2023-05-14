@@ -7,7 +7,7 @@ const HomePageCoffeeList = () => {
     const [homePageCoffeeList, setHomePageCoffeeList] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/homePageCoffeeList')
+        fetch('https://coffee-shop-server-site-kauserul.vercel.app/homePageCoffeeList')
             .then(res => res.json())
             .then(data => setHomePageCoffeeList(data))
     }, [])

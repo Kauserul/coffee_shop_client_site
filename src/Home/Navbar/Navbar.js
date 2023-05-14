@@ -22,15 +22,13 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 text-2xl font-bold">
-                        <li><Link>Home</Link> </li>
-                        <li><Link>Coffee</Link> </li>
-                        <li><Link>Blog</Link> </li>
+                        <li><Link to='/'>Home</Link> </li>
                     </ul>
                 </div>
                 <div className="navbar-end">
                     {
                         user?.email ?
-                        <Link to='/login'><button className='btn btn-primary' onClick={userLogOut}>Log Out</button></Link>
+                        <Link to='/login'><button className='btn bg-white text-black font-bold hover:bg-white ' onClick={userLogOut}>Log Out</button></Link>
                         :
                         <Link to='/login'><button className='btn btn-primary'>Log In</button></Link>
                     }

@@ -54,7 +54,7 @@ const Footer = () => {
     ]
     return (
         <div>
-            <div className='footerbg text-white lg:grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-20 lg:p-20 p-10'>
+            <div className='footerbg text-white lg:grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 lg:gap-20 lg:p-20 p-10'>
                 <div>
                     <h3 className='text-3xl mb-4'>OPENING HOURS</h3>
                     {
