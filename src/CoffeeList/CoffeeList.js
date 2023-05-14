@@ -13,7 +13,7 @@ const CoffeeList = ({coffeeList}) => {
             <p className='text-orange-300 text-xl'>{des}</p>
         </div>
         <div>
-            <h5 className='text-white text-3xl'>{price}</h5>
+            <h5 className='text-white text-3xl mb-2'>{price}</h5>
             <button className='btn btn-sm bg-white text-black hover:bg-orange-600'>Order</button>
         </div>
     </div>
